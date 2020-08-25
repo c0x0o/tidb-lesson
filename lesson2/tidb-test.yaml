@@ -1,0 +1,31 @@
+global:
+  user: "lizongyuan.0x0"
+  deploy_dir: "data/deploy/tidb-test"
+
+pd_servers:
+  # devbox-lzy
+  - host: 10.227.71.147
+
+tidb_servers:
+  # devbox-hyp
+  - host: 10.227.67.58
+  # devbox-zl
+  - host: 10.227.67.62
+
+tikv_servers:
+  # devbox-hyp
+  - host: 10.227.67.58
+  # devbox-zl
+  - host: 10.227.67.62
+
+monitoring_servers:
+  # devbox-lzy
+  - host: 10.227.71.147
+
+grafana_servers:
+  # devbox-lzy
+  - host: 10.227.71.147
+
+alertmanager_servers:
+  # devbox-lzy
+  - host: 10.227.71.147
